@@ -14,6 +14,7 @@ int main(void)
    for (int i = 0, n = strlen(s); i < n; i++)
    {
        //입력받은 문자(c)를 하나씩 출력
+       //s[i], 입력받은 문자열(s)의 [i]번째 값을 한 글자(c)씩 출력
        printf("%c\n", s[i]);
    }
 }
